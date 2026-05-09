@@ -19,6 +19,8 @@ This project consists of building a full data pipeline in two phases:
 1. **ETL with Talend** — ingest raw data, model it into a star schema, and load it into a relational database
 2. **Visualization with Power BI** — connect to the database and build an interactive dashboard
 
+The data source is an Excel file containing supermarket stock information
+
 ---
 
 ## Star Schema
@@ -33,13 +35,15 @@ The dimensional model is structured as follows:
 ## Repository Structure
 
 ```
- ┣ 📂 talend
- ┃ ┣ 📜 project.zip
- ┃ ┣ 📊 fact_table.csv
- ┃ ┗ 📊 dim_*.csv
- ┣ 📂 powerbi
- ┃ ┗ 📊 dashboard.pbix
- ┗ 📄 README.md
+ 📂 talend
+  ┣ 📜 project.zip
+  ┣ 📊 fact_table.csv
+  ┣ 📊 dim_*.csv
+ 📂 powerbi
+  ┗ 📊 dashboard.pbix
+  Hypermarche.xlsx
+  Objectif_ventes.xlsx
+ 📄 README.md
 ```
 
 ---
