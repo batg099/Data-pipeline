@@ -1,4 +1,4 @@
-# 🗄️ Data Pipeline — Talend & Power BI
+# Data Pipeline — Talend & Power BI
 
 > End-to-end data pipeline covering extraction, storage, dimensional modeling and interactive visualization.
 
@@ -44,7 +44,7 @@ The dimensional model is structured as follows:
 
 ---
 
-## 🚀 How It Works
+## How It Works
 
 ### Step 1 — Data Ingestion
 Load source files into a relational database using Talend jobs.
